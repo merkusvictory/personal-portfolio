@@ -470,6 +470,7 @@ main {
 
 .project-addon.one {
     color: var(--darkred-tile-fc2);
+    text-decoration: none;
 }
 
 .project-img.one {
@@ -547,6 +548,7 @@ main {
 
 .project-addon.two {
     color: var(--darkblue-tile-fc2);
+    text-decoration: none;
 }
 
 .project-img.two {
