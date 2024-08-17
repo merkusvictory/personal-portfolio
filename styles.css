@@ -340,6 +340,18 @@ main {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .facts-content {
+        width: 300px;
+    }
+    .facts-intro {
+        font-size: 20px;
+    }
+    .fun-facts {
+        font-size: 15px;
+    }
+}
+
 /* projects section layout */
 #projects {
     min-height: calc(180vh - 120px);
@@ -723,5 +735,12 @@ main {
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 800) {
+    .project-tile {
+        width: 400px;
+        height: 240px;
     }
 }
