@@ -738,9 +738,21 @@ main {
     }
 }
 
-@media only screen and (max-width: 800) {
+@media only screen and (max-width: 500px) {
     .project-tile {
-        width: 400px;
-        height: 240px;
+        max-width: 400px;
+        max-height: 240px;
+    }
+    .project-title {
+        font-size: 32px;
+    }
+    
+    .project-addon {
+        font-size: 25px;
+    }
+    
+    .project-descrip {
+        font-size: 15px;
+        margin-left: 20px;
     }
 }
